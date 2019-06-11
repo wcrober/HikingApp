@@ -1,6 +1,9 @@
-<!doctype html>
-<html>
-   <body>
+{% extends "menu.html" %}
+{% block meta %}<link rel="stylesheet" type="text/css" href="/static/css/record-hike.css"> {% endblock %}
+
+
+{% block content %}
+      <h1>Hike Status</h1>
       <table border = 1>
          {% for key, value in result.items() %}
             <tr>
@@ -8,7 +11,14 @@
                <td> {{ value }} </td>
             </tr>
          {% endfor %}
+            <tr>
+               <th>Latitude</th>
+               <td> {{ latitude }}</td>
+            </tr>
+          <tr>
+               <th>Longitude</th>
+               <td> {{ longitude }}</td>
+            </tr>
       </table>
-   </body>
-</html>
+{% endblock %}
 

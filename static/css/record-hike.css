@@ -1,0 +1,25 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+
+  }
+
+.menu {
+  margin-bottom: 0rem;
+}
+
+
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (max-width: 60em) {
+  body {
+      padding-top: 6rem;
+      padding-bottom: .5rem;
+    }
+
+
+
+
+

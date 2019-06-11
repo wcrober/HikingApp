@@ -1,0 +1,99 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+
+  }
+
+.menu {
+  margin-bottom: 0rem;
+}
+
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 38rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 38rem;
+}
+
+.slideOne .button a {
+  background-color: #63b000;
+  color: white;
+}
+
+.slideTwo .button a {
+  background-color: #00240a;
+  color: white;
+}
+
+  /* COLUMN CONTENT
+  -------------------------------------------------- */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+  color: #00240a;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.marketing .col-lg-4 a {
+  background-color: #00240a;
+  color: white;
+}
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (max-width: 60em) {
+  body {
+      padding-top: 6rem;
+      padding-bottom: .5rem;
+    }
+
+  #myCarousel {
+      display:none !important;
+  }
+}
+
+@media (max-width: 100em) {
+  .carousel-caption h1 {
+    font-size: 1.75rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+
+
